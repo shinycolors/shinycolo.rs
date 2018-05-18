@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "eslint --ext .js,.vue,.ts --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",

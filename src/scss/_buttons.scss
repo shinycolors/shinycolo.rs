@@ -1,0 +1,38 @@
+@mixin button($color) {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid $color;
+  border-spacing: 3px;
+  color: $color;
+  text-decoration: none;
+  padding: 5px 15px;
+
+  &:hover {
+    color: #fff;
+    background-color: $color;
+  }
+}
+
+.button--grey {
+  @include button(#afafaf);
+}
+
+.button--metro_red {
+  @include button(#d11141);
+}
+
+.button--metro_green {
+  @include button(#00b159);
+}
+
+.button--metro_blue {
+  @include button(#00aedb);
+}
+
+.button--metro_orange {
+  @include button(#f37735);
+}
+
+.button--metro_yellow {
+  @include button(#ffc425);
+}

@@ -1,0 +1,50 @@
+{
+  "name": "shinycolo.rs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "https://shinycolo.rs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinycolors/shinycolo.rs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinycolors/shinycolo.rs/issues"
+  },
+  "homepage": "https://github.com/shinycolors/shinycolo.rs#readme",
+  "devDependencies": {
+    "cross-env": "^5.1.5",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-typescript": "^1.0.2",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "node-sass": "^4.9.0",
+    "prettier": "^1.12.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3",
+    "typescript-eslint-parser": "^15.0.0",
+    "vue-loader": "^15.0.11",
+    "vue-template-compiler": "^2.5.16",
+    "vue-typescript-import-dts": "^4.0.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-property-decorator": "^6.0.0"
+  }
+}

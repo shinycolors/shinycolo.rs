@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "eslint --ext .js,.vue,.ts --ignore-path .gitignore ."
+    "build:production": "cross-env NODE_ENV=production webpack",
+    "test": "eslint --ext .js,.vue,.ts --ignore-path .gitignore .",
+    "watch": "yarn webpack-dev-server --hot --inline --content-base dist"
   },
   "repository": {
     "type": "git",
@@ -33,9 +35,9 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "ts-loader": "^4.3.0",
-    "tslint": "^5.10.0",
     "typescript": "^2.8.3",
     "typescript-eslint-parser": "^15.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
     "vue-loader": "^15.0.11",
     "vue-template-compiler": "^2.5.16",
     "vue-typescript-import-dts": "^4.0.0",

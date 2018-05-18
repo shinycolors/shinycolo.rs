@@ -9,7 +9,7 @@ cache:
 
 install:
   - yarn install
-  - yarn build
+  - yarn build:production
 
 deploy:
   provider: pages
